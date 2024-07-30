@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /setup
+      link: frontend/setup
     - theme: alt
       text: Contribution Guide
-      link: /CONTRIBUTING
+      link: frontend/CONTRIBUTING
 
 features:
   - title: Open Source

@@ -30,7 +30,7 @@ npm install
 Start the development server:
 
 ```sh
-npm run dev
+npm run start
 ```
 
 This will start the Vite development server and open the app in your default browser.
