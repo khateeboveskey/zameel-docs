@@ -14,7 +14,7 @@ export default defineConfig({
     ],
     outline: "deep",
     sidebar: {
-      '/frontend/': [
+      "/frontend/": [
         {
           text: "Getting Started",
           items: [
@@ -42,6 +42,6 @@ export default defineConfig({
   base: "/zameel-docs/",
   lastUpdated: true,
   head: [["link", { rel: "icon", href: "/zameel-docs/logo.svg" }]],
-  srcDir: 'src',
-  cleanUrls: true
+  srcDir: "src",
+  cleanUrls: true,
 });
