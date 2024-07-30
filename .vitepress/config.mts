@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Setup", link: "/setup" },
-      { text: "Contribution", link: "/CONTRIBUTING" }
+      { text: "Contribution", link: "/CONTRIBUTING" },
     ],
     outline: "deep",
     sidebar: [
@@ -19,8 +19,8 @@ export default defineConfig({
         items: [
           { text: "Introduction", link: "/introduction" },
           { text: "Setup", link: "/setup" },
-          { text: "Contribution", link: "/CONTRIBUTING" }
-        ]
+          { text: "Contribution", link: "/CONTRIBUTING" },
+        ],
       },
       {
         text: "Scripts",
@@ -29,13 +29,15 @@ export default defineConfig({
           { text: "Introduction", link: "/scripts/introduction" },
           { text: "create:comp", link: "/scripts/create-comp" },
           { text: "create:view", link: "/scripts/create-view" },
-          { text: "create:store", link: "/scripts/create-store" }
-        ]
-      }
+          { text: "create:store", link: "/scripts/create-store" },
+        ],
+      },
     ],
-    socialLinks: [{ icon: "github", link: "https://github.com/khateeboveskey/zameel" }]
+    socialLinks: [
+      { icon: "github", link: "https://github.com/khateeboveskey/zameel" },
+    ],
   },
   base: "/zameel/",
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/zameel/logo.svg" }]]
+  head: [["link", { rel: "icon", href: "/zameel/logo.svg" }]],
 });
