@@ -67,4 +67,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please make sure that this issue hasn't been [reported before](https://github.com/khateeboveskey/zameel/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+        Please make sure that this issue hasn't been [reported before](https://github.com/khateeboveskey/zameel-docs/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).

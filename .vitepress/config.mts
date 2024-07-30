@@ -37,7 +37,7 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/khateeboveskey/zameel" },
     ],
   },
-  base: "/zameel/",
+  base: "/zameel-docs/",
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/zameel/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/zameel-docs/logo.svg" }]],
 });
