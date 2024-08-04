@@ -116,15 +116,15 @@ Since VitePress routing is folder-based, we follow url structring convention, i.
 ❌ Bad
 
 ```md
-<!-- Renders as /style-guide in the url -->
+<!-- Renders as /styleGuide in the url -->
 
-style-guide.md
+styleGuide.md
 ```
 
 ✔ Good
 
 ```md
-<!-- Renders as /styleGuide in the url -->
+<!-- Renders as /style-guide in the url -->
 
-styleGuide.md
+style-guide.md
 ```
