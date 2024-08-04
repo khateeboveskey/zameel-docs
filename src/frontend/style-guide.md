@@ -6,7 +6,7 @@ We use [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/) to enf
 
 ## React/TSX
 
-* Always use function-based components
+- Always use function-based components
 
 ❌ Bad
 
@@ -29,15 +29,13 @@ export default function Listing(props) {
 
 ---
 
-* Don't use arrow function in components declaration
+- Don't use arrow function in components declaration
 
 ❌ Bad
 
 ```tsx
 // bad (relying on function name inference is discouraged)
-const Listing = (props) => (
-  <div>{props.hello}</div>
-);
+const Listing = (props) => <div>{props.hello}</div>;
 ```
 
 ✔ Good
@@ -50,7 +48,7 @@ export default function Listing(props) {
 
 ## CSS
 
-* Don't use `-webkit-` prefixes inside element's `class`
+- Don't use `-webkit-` prefixes inside element's `class`
 
 use `@apply` at-rule to apply classes to selected element.
 
@@ -70,7 +68,7 @@ use `@apply` at-rule to apply classes to selected element.
 
 ---
 
-* Don't write unlayered rules
+- Don't write unlayered rules
 
 If you are forced to write in `index.css`, use `@layer` at-rule to group rules.
 
@@ -95,7 +93,7 @@ If you are forced to write in `index.css`, use `@layer` at-rule to group rules.
 
 ---
 
-* Prefer a direction-based class over a position-based class
+- Prefer a direction-based class over a position-based class
 
 ❌ Bad
 
@@ -111,7 +109,7 @@ If you are forced to write in `index.css`, use `@layer` at-rule to group rules.
 
 ## Markdown
 
-* Always name Markdown files in kebab-case
+- Always name Markdown files in kebab-case
 
 Since VitePress routing is folder-based, we follow url structring convention, i.e. to name pages in kebab case.
 
@@ -119,6 +117,7 @@ Since VitePress routing is folder-based, we follow url structring convention, i.
 
 ```md
 <!-- Renders as /style-guide in the url -->
+
 style-guide.md
 ```
 
@@ -126,5 +125,6 @@ style-guide.md
 
 ```md
 <!-- Renders as /styleGuide in the url -->
+
 styleGuide.md
 ```
