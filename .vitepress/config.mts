@@ -21,6 +21,7 @@ export default defineConfig({
             { text: "Introduction", link: "/frontend/" },
             { text: "Setup", link: "/frontend/setup" },
             { text: "Contribution", link: "/frontend/CONTRIBUTING" },
+            { text: "Style Guide", link: "/frontend/style-guide" },
           ],
         },
       ],

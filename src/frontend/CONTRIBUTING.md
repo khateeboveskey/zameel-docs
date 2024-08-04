@@ -16,75 +16,9 @@ We use and enforce [Conventional Commits](https://www.conventionalcommits.org/en
 Make sure to read and follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) Messages specification before making a commit.
 :::
 
-## Style Guide
+## Code Style Guide
 
-::: info
-We use [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/) to enforce a consistent code style. This guide covers not-configured rules.
-:::
-
-### Vue
-
-1. You should follow [Vue Style Guide](https://vuejs.org/style-guide/).
-2. Use `<script setup>` **Composition API** instead of `<script>` for Vue SFC.
-
----
-
-### CSS
-
-1. Don't use `-webkit-` prefixes inside element's `class`
-
-use `@apply` at-rule to apply classes to selected element.
-
-❌ Bad
-
-```html
-<div class="[&::-webkit-scrollbar]:hidden"></div>
-```
-
-✔ Good
-
-```css
-.custom-scrollbar::-webkit-scrollbar {
-  @apply hidden;
-}
-```
-
-2. Don't write unlayered rules
-
-If you are forced to write in `index.css`, use `@layer` at-rule to group rules.
-
-❌ Bad
-
-```css
-.custom-scrollbar::-webkit-scrollbar {
-  @apply hidden;
-}
-```
-
-✔ Good
-
-```css
-@layer base {
-  /* ... */
-  .custom-scrollbar::-webkit-scrollbar {
-    @apply hidden;
-  }
-}
-```
-
-3. Prefer a direction-based class over a position-based class
-
-❌ Bad
-
-```css
-@apply ml-5 mr-2;
-```
-
-✔ Good
-
-```css
-@apply ms-5 me-2;
-```
+You should follow our [Code Style Guide](style-guide).
 
 ## Licence
 
