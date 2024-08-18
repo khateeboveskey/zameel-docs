@@ -16,7 +16,7 @@ export default defineConfig({
     sidebar: {
       "/frontend/": [
         {
-          text: "Getting Started",
+          text: "Guide",
           items: [
             { text: "Introduction", link: "/frontend/" },
             { text: "Setup", link: "/frontend/setup" },
@@ -24,17 +24,14 @@ export default defineConfig({
             { text: "Style Guide", link: "/frontend/style-guide" },
           ],
         },
+        {
+          text: "API Reference",
+          // collapsed: false,
+          items: [
+            { text: "Compontents", link: "/frontend/components" },
+          ],
+        },
       ],
-      // {
-      //   text: "Scripts",
-      //   collapsed: true,
-      //   items: [
-      //     { text: "Introduction", link: "/scripts/introduction" },
-      //     { text: "create:comp", link: "/scripts/create-comp" },
-      //     { text: "create:view", link: "/scripts/create-view" },
-      //     { text: "create:store", link: "/scripts/create-store" },
-      //   ],
-      // },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/khateeboveskey/zameel" },
