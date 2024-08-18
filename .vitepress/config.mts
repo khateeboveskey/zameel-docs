@@ -27,9 +27,7 @@ export default defineConfig({
         {
           text: "API Reference",
           // collapsed: false,
-          items: [
-            { text: "Compontents", link: "/frontend/components" },
-          ],
+          items: [{ text: "Compontents", link: "/frontend/components" }],
         },
       ],
     },
