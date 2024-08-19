@@ -16,7 +16,7 @@ We use and enforce [Conventional Commits](https://www.conventionalcommits.org/en
 Make sure to read and follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) Messages specification before making a commit.
 :::
 
-* Always start commit description with base verb
+- Always start commit description with base verb
 
 ```sh
 # Bad
