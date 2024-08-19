@@ -16,6 +16,17 @@ We use and enforce [Conventional Commits](https://www.conventionalcommits.org/en
 Make sure to read and follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) Messages specification before making a commit.
 :::
 
+* Always start commit description with base verb
+
+```sh
+# Bad
+git commit -m "docs: updated FormInput types docs"
+git commit -m "docs: FormInput types docs update"
+
+# Good
+git commit -m "docs: update FormInput types docs"
+```
+
 ## Code Style Guide
 
 You should follow our [Code Style Guide](style-guide).
