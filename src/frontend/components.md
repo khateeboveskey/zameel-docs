@@ -25,6 +25,6 @@ This page provides a detailed reference for the components used in the Zameel fr
 
 ## `Logo`
 
-|  Props  |   Type   | Required |    Default    | Description               |
-| :-----: | :------: | :------: | :-----------: | :------------------------ |
+|  Props  |   Type   | Required |     Default     | Description               |
+| :-----: | :------: | :------: | :-------------: | :------------------------ |
 | `color` | `string` |          | `PRIMARY_COLOR` | The color of the element. |
