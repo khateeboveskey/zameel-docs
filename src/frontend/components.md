@@ -15,7 +15,7 @@ This page provides a detailed reference for the components used in the Zameel fr
 | `secureTextEntry` |        `boolean`         |          |         | Indicates whether the form input should display the entered text as secure (e.g. password input).                             |
 |   `noValidate`    |        `boolean`         |          |         | Indicates whether the form input should not be validated.                                                                     |
 
-## `FormInputFeedbackProps`
+## `FormInputFeedback`
 
 |        Props         |             Type             | Required | Default | Description                                                                                                                                       |
 | :------------------: | :--------------------------: | :------: | :-----: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -23,8 +23,8 @@ This page provides a detailed reference for the components used in the Zameel fr
 |      `validate`      |           `string`           |    ✔    |         | The validation rule for the form input.                                                                                                           |
 | `onValidationErrors` | `(errors: object[]) => void` |          |         | Callback function that is called when there are validation errors for the form input.<br> @param `errors` - An array of validation error objects. |
 
-## `LogoProps`
+## `Logo`
 
 |  Props  |   Type   | Required |    Default    | Description               |
 | :-----: | :------: | :------: | :-----------: | :------------------------ |
-| `color` | `string` |          | PRIMARY_COLOR | The color of the element. |
+| `color` | `string` |          | `PRIMARY_COLOR` | The color of the element. |
