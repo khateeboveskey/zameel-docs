@@ -4,8 +4,8 @@ This page provides a detailed reference for the components used in the Zameel fr
 
 ## `FormInput`
 
-|       Props       |           Type           | Required | Description|
-| :---------------: | :----------------------: | :-----: | :---------------------------------------------------------------------------------------------------------------------------- |
+|       Props       |           Type           | Required | Description                                                                                                                   |
+| :---------------: | :----------------------: | :------: | :---------------------------------------------------------------------------------------------------------------------------- |
 |       `id`        |         `string`         |    ✔    | A unique identifier for the form input.                                                                                       |
 |      `label`      |         `string`         |    ✔    | The label for the form input.                                                                                                 |
 |      `value`      |         `string`         |    ✔    | The current value of the form input.                                                                                          |
@@ -17,8 +17,8 @@ This page provides a detailed reference for the components used in the Zameel fr
 
 ## `FormInputFeedback`
 
-|        Props         |             Type             | Required| Description|
-| :------------------: | :--------------------------: |:-----: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+|        Props         |             Type             | Required | Description                                                                                                                                       |
+| :------------------: | :--------------------------: | :------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 |       `value`        |           `string`           |    ✔    | The current value of the form input.                                                                                                              |
 |      `validate`      |           `string`           |    ✔    | The validation rule for the form input.                                                                                                           |
 | `onValidationErrors` | `(errors: object[]) => void` |          | Callback function that is called when there are validation errors for the form input.<br> @param `errors` - An array of validation error objects. |
