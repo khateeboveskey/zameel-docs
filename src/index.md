@@ -31,3 +31,71 @@ features:
     icon: 👩🏻‍🎓
     details: Zameel is made by students, for students, solving their studying-related problems!
 ---
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://www.github.com/khateeboveskey.png',
+    name: 'Abdulrahman Al-Khateeb',
+    title: 'Team Lead & Frontend Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/khateeboveskey' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/khateeb404/' },
+      { icon: 'twitter', link: 'https://twitter.com/khateeb404' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@khateebedia' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/Mahmood-Ahmed-Alqirshy.png',
+    name: 'Mahmood Al-Qirshy',
+    title: 'Backend Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/Mahmood-Ahmed-Alqirshy' },
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/Hussein-Alyafei.png',
+    name: 'Hussein Al-Yafei',
+    title: 'Backend Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/Hussein-Alyafei' },
+      { icon: 'twitter', link: 'https://twitter.com/__7ussein' },
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/AbdulmalikAlsqaaf.png',
+    name: 'Abdulmalik Al-Saqqaf',
+    title: 'UI/UX Designer',
+    links: [
+      { icon: 'github', link: 'https://github.com/AbdulmalikAlsqaaf' },
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/ahmed-alnabhi.png',
+    name: 'Ahmed Al-Nabhi',
+    title: 'Frontend Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/ahmed-alnabhi' },
+      { icon: 'twitter', link: 'https://twitter.com/Ahmed_fahmi2004' },
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/benadnan2002.png',
+    name: 'Osama Al-Audari',
+    title: 'Analysist & Technical Writer',
+    links: [
+      { icon: 'github', link: 'https://github.com/benadnan2002' },
+    ]
+  },
+]
+</script>
+
+<span style="display: block; margin-top: 5rem"></span>
+
+# Our Core Team
+
+Say hello to our awesome team.
+
+<VPTeamMembers size="small" :members="members" />

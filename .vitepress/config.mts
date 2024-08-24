@@ -8,9 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.svg",
     nav: [
-      { text: "Home", link: "/index" },
+      { text: "Home", link: "/" },
       { text: "Frontend", link: "/frontend/setup" },
-      { text: "Contribution", link: "/frontend/CONTRIBUTING" },
     ],
     outline: "deep",
     sidebar: {
@@ -37,6 +36,10 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/khateeboveskey/zameel" },
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present A.Rahman Al-Khateeb and Zameel Contributors'
+    }
   },
   base: "/zameel-docs/",
   lastUpdated: true,
