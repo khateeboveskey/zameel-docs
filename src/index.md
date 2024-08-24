@@ -21,9 +21,12 @@ features:
   - title: Open Source
     icon: 🔓
     details: Zameel is fully open source, you can use it, improve it, or make your own from it.
+  - title: Dedicated API
+    icon: 🔗
+    details: Zameel has its dedicated API, makes it easy to integrate with your own apps and technologies.
   - title: Cross Platform
-    icon: 📱
-    details: Zameel is available for Android and iOS with the power of Capacitor.
+    icon: ⚛
+    details: Zameel is available for the Web, Android, and iOS thanks to React Native.
   - title: User-centered
     icon: 👩🏻‍🎓
     details: Zameel is made by students, for students, solving their studying-related problems!
