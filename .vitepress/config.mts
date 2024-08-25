@@ -37,9 +37,10 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/khateeboveskey/zameel" },
     ],
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present A.Rahman Al-Khateeb and Zameel Contributors'
-    }
+      message: "Released under the MIT License.",
+      copyright:
+        "Copyright © 2024-present A.Rahman Al-Khateeb and Zameel Contributors",
+    },
   },
   base: "/zameel-docs/",
   lastUpdated: true,
