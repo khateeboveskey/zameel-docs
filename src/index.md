@@ -43,7 +43,7 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/khateeboveskey' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/khateeb404/' },
-      { icon: 'twitter', link: 'https://twitter.com/khateeb404' },
+      { icon: 'x', link: 'https://x.com/khateeb404' },
       { icon: 'youtube', link: 'https://www.youtube.com/@khateebedia' }
     ]
   },
@@ -61,7 +61,7 @@ const members = [
     title: 'Backend Developer',
     links: [
       { icon: 'github', link: 'https://github.com/Hussein-Alyafei' },
-      { icon: 'twitter', link: 'https://twitter.com/__7ussein' },
+      { icon: 'x', link: 'https://x.com/__7ussein' },
     ]
   },
   {
@@ -70,6 +70,9 @@ const members = [
     title: 'UI/UX Designer',
     links: [
       { icon: 'github', link: 'https://github.com/AbdulmalikAlsqaaf' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/abdulmalikalsqaaf' },
+      { icon: 'x', link: 'https://www.x.com/3_alsqaaf' },
+      { icon: 'instagram', link: 'https://www.instagram.com/3_alsqaaf' },
     ]
   },
   {
@@ -78,7 +81,7 @@ const members = [
     title: 'Frontend Developer',
     links: [
       { icon: 'github', link: 'https://github.com/ahmed-alnabhi' },
-      { icon: 'twitter', link: 'https://twitter.com/Ahmed_fahmi2004' },
+      { icon: 'x', link: 'https://x.com/Ahmed_fahmi2004' },
     ]
   },
   {
