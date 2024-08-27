@@ -16,6 +16,6 @@ A React hook that returns an adaptive color based on the user's device color sch
 | :--------: | :-------: | :------: | :-----: | :-------------------------------------------------------------------------------------------------------------- |
 |  `effect`   | `() => void`  |    ✔     |         | The effect function to be debounced.                                                                             |
 |   `deps`   | `any[]`  |    ✔     |         | The dependencies array for the effect function.                                                                    |
-| `delay` | `number` |         |   500  | The delay in milliseconds before the effect function is executed. Defaults to 500 milliseconds. |
+| `delay` | `number` |         |   `500`  | The delay in milliseconds before the effect function is executed. Defaults to 500 milliseconds. |
 
 returns A cleanup function that can be used to cancel the debounced effect.
