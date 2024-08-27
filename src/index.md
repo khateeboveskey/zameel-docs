@@ -86,10 +86,12 @@ const members = [
   },
   {
     avatar: 'https://www.github.com/benadnan2002.png',
-    name: 'Osama Al-Audari',
+    name: 'Osama Al-Awdari',
     title: 'Analysist & Technical Writer',
     links: [
       { icon: 'github', link: 'https://github.com/benadnan2002' },
+      { icon: 'x', link: 'https://x.com/OsamaAdnanS' },
+      { icon: 'instagram', link: 'https://www.instagram.com/osamaadnansallam' },
     ]
   },
 ]
