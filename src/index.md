@@ -78,7 +78,7 @@ const members = [
   {
     avatar: 'https://www.github.com/ahmed-alnabhi.png',
     name: 'Ahmed Al-Nabhi',
-    title: 'Frontend Developer',
+    title: 'Analyst',
     links: [
       { icon: 'github', link: 'https://github.com/ahmed-alnabhi' },
       { icon: 'x', link: 'https://x.com/Ahmed_fahmi2004' },
@@ -87,10 +87,10 @@ const members = [
   {
     avatar: 'https://www.github.com/benadnan2002.png',
     name: 'Osama Al-Awdari',
-    title: 'Analysist & Technical Writer',
+    title: 'Analyst & Technical Writer',
     links: [
       { icon: 'github', link: 'https://github.com/benadnan2002' },
-      { icon: 'x', link: 'https://x.com/OsamaAdnanS' },
+      { icon: 'x, link: 'https://x.com/OsamaAdnanS' },
       { icon: 'instagram', link: 'https://www.instagram.com/osamaadnansallam' },
     ]
   },
