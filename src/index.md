@@ -90,7 +90,7 @@ const members = [
     title: 'Analyst & Technical Writer',
     links: [
       { icon: 'github', link: 'https://github.com/benadnan2002' },
-      { icon: 'x, link: 'https://x.com/OsamaAdnanS' },
+      { icon: 'x', link: 'https://x.com/OsamaAdnanS' },
       { icon: 'instagram', link: 'https://www.instagram.com/osamaadnansallam' },
     ]
   },
