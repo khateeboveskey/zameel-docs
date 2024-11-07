@@ -10,6 +10,8 @@ A React hook that returns an adaptive color based on the user's device color sch
 |   `tone`   | `number`  |    ✔    |         | The tone or shade of the color, as a number.                                                                    |
 | `tailwind` | `boolean` |          | `false` | An optional boolean flag to use Tailwind CSS color utilities instead of the custom `getAdaptiveColor` function. |
 
+returns The adaptive color, either as a CSS color string or a Tailwind CSS utility class.
+
 ## `useDebouncedEffect()`
 
 |  Props   |     Type     | Required | Default | Description                                                                                     |

@@ -29,6 +29,7 @@ export default defineConfig({
           items: [
             { text: "Compontents", link: "/frontend/components" },
             { text: "Hooks", link: "/frontend/hooks" },
+            { text: "Utils", link: "/frontend/utils" },
           ],
         },
       ],
