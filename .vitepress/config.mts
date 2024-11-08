@@ -30,6 +30,7 @@ export default defineConfig({
             { text: "Compontents", link: "/frontend/components" },
             { text: "Hooks", link: "/frontend/hooks" },
             { text: "Utils", link: "/frontend/utils" },
+            { text: "Types", link: "/frontend/types" },
           ],
         },
       ],
