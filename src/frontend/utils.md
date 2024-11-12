@@ -77,7 +77,7 @@ returns An empty array if the full name is valid, or an array containing a singl
 
 ### `validateBoolObject(): boolean`
 
-Checks if all values in the provided    are `true`.
+Checks if all values in the provided are `true`.
 
 | Props |             Type             | Required | Default | Description                    |
 | :---: | :--------------------------: | :------: | :-----: | :----------------------------- |
