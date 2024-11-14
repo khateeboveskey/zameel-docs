@@ -63,3 +63,40 @@ Sends a DELETE request to the specified endpoint with the provided ID and return
 | `id` | `number` |    ✔     |         | The ID of the resource to be deleted. |
 
 returns The response data, or `null` if an error occurs.
+
+## `useAsyncStorage()`
+
+A custom React hook that provides an interface for interacting with the device's AsyncStorage.
+
+### `setItem()`
+
+Asynchronously stores the provided value under the specified key in the device's AsyncStorage.
+
+|  Props   |     Type     | Required | Default | Description                                                                                     |
+| :------: | :----------: | :------: | :-----: | :---------------------------------------------------------------------------------------------- |
+| `key` | `string` |    ✔     |         | The key to store the value under.                                                            |
+|  `value`  |   `string`    |    ✔     |         | The value to store. If `isObject` is true, the value will be JSON-encoded before storing.                                                 |
+| `isObject`  |   `boolean`   |          |  `false`  | Indicates whether the provided value is a JavaScript object that should be JSON-encoded before storing. |
+
+returns A Promise that resolves to `true` if the value was successfully stored, or `false` if an error occurred.
+
+### `getItem()`
+
+Asynchronously retrieves the value stored under the specified key in the device's AsyncStorage.
+
+|  Props   |     Type     | Required | Default | Description                                                                                     |
+| :------: | :----------: | :------: | :-----: | :---------------------------------------------------------------------------------------------- |
+| `key` | `string` |    ✔     |         | The key to retrieve the value for.                                                            |
+| `isObject`  |   `boolean`   |          |  `false`  | Indicates whether the stored value is a JSON-encoded object. If true, the value will be parsed from JSON. |
+
+returns A Promise that resolves with the retrieved value, or null if the key does not exist. If an error occurs, the Promise will reject.
+
+### `removeItem()`
+
+Asynchronously removes the value stored under the specified key in the device's AsyncStorage.
+
+|  Props   |     Type     | Required | Default | Description                                                                                     |
+| :------: | :----------: | :------: | :-----: | :---------------------------------------------------------------------------------------------- |
+| `key` | `string` |    ✔     |         | The key to remove the value for.                                                            |
+
+returns A Promise that resolves to `true` if the value was successfully removed, or `false` if an error occurred.
