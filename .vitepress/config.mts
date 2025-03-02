@@ -45,9 +45,7 @@ export default defineConfig({
         },
         {
           text: "Endpoints",
-          items: [
-            { text: "Users", link: "/backend/users" },
-          ],
+          items: [{ text: "Users", link: "/backend/users" }],
         },
       ],
     },
