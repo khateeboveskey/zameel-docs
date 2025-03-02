@@ -1,6 +1,6 @@
 # Users
 
-## `Post` - `/api/register`
+## `POST` - `/register`
 
 ### Headers
 
@@ -8,7 +8,7 @@
 
 ### Payload
 
-~~~json
+```json
 {
     "data": {
         "type": "user",
@@ -20,7 +20,7 @@
         }
     }
 }
-~~~
+```
 
 ### Validation Rules
 
@@ -32,13 +32,13 @@
 
 ### Response
 
-~~~json
+```json
 {
     "message": "created"
 }
-~~~
+```
 
-## `Post` - `/api/login`
+## `POST` - `/login`
 
 ### Headers
 
@@ -46,7 +46,7 @@
 
 ### Payload
 
-~~~json
+```json
 {
     "data": {
         "attributes": {
@@ -58,7 +58,7 @@
                 "deviceName" : "iPhone 13"
     }
 }
-~~~
+```
 
 ### Validation Rules
 
@@ -71,13 +71,13 @@
 
 ### Response
 
-~~~json
+```json
 {
     "token": ""
 }
-~~~
+```
 
-## `Post` - `/api/logout`
+## `POST` - `/logout`
 
 ### Headers
 
@@ -86,8 +86,8 @@
 
 ### Response
 
-~~~json
+```json
 {
     "message": "loged out"
 }
-~~~
+```
