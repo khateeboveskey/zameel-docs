@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Frontend", link: "/frontend/setup" },
+      { text: "Backend", link: "/backend/setup" },
     ],
     outline: "deep",
     sidebar: {
@@ -33,6 +34,21 @@ export default defineConfig({
           ],
         },
       ],
+      "/backend/": [
+        {
+          text: "Guide",
+          items: [
+            { text: "Introduction", link: "/backend/" },
+            { text: "Setup", link: "/backend/setup" },
+          ],
+        },
+        {
+          text: "Endpoints",
+          items: [
+            { text: "Users", link: "/backend/users" },
+          ],
+        },
+      ],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/khateeboveskey/zameel" },
@@ -40,12 +56,12 @@ export default defineConfig({
     footer: {
       message: "Released under the MIT License.",
       copyright:
-        "Copyright © 2024-present A.Rahman Al-Khateeb and Zameel Contributors",
+        "Copyright © 2024-present Bitwise Team and Zameel Contributors",
     },
   },
   base: "/zameel-docs/",
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/zameel-docs/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/zameel-docs/icon.png" }]],
   srcDir: "src",
   cleanUrls: true,
 });

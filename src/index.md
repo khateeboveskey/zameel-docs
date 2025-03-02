@@ -99,7 +99,7 @@ const members = [
 
 <span style="display: block; margin-top: 5rem"></span>
 
-# Our Core Team
+## Our Core Team
 
 Say hello to our awesome team.
 
