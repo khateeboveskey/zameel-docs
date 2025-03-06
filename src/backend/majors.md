@@ -129,10 +129,10 @@ The created major
 
 | Field      | Required  | Rules                                                                                                                                              |
 | ---------- | :-------: | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| name       |  sometimes  | - String <br> - Max length is 45 <br> - Only letters (from any language), combining marks and spaces. <br> - Must be unique in the `majors` table. |
+| name       | sometimes | - String <br> - Max length is 45 <br> - Only letters (from any language), combining marks and spaces. <br> - Must be unique in the `majors` table. |
 | years      | Sometimes | - Integer <br> - Between 1 and 8                                                                                                                   |
 | college_id | Sometimes | - Integer <br> - Numeric <br> - Must exist in the `colleges` table (id)                                                                            |
-| degree_id  |  sometimes  | - Integer <br> - Numeric <br> - Must exist in the `degrees` table (id)                                                                             |
+| degree_id  | sometimes | - Integer <br> - Numeric <br> - Must exist in the `degrees` table (id)                                                                             |
 
 ### Response
 
