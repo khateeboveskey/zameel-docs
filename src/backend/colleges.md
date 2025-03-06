@@ -13,22 +13,22 @@ Collection's data
 
 ```json
 {
-    "data": [
-        {
-            "id": 1,
-            "name": "College 1",
-            "created_at": null,
-            "updated_at": null,
-            "deleted_at": null
-        },
-        {
-            "id": 2,
-            "name": "College 2",
-            "created_at": null,
-            "updated_at": null,
-            "deleted_at": null
-        }
-    ]
+  "data": [
+    {
+      "id": 1,
+      "name": "College 1",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "name": "College 2",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null
+    }
+  ]
 }
 ```
 
@@ -43,13 +43,13 @@ Collection's data
 
 ```json
 {
-    "data": {
-        "id": 1,
-        "name": "College 1",
-        "created_at": null,
-        "updated_at": null,
-        "deleted_at": null
-    }
+  "data": {
+    "id": 1,
+    "name": "College 1",
+    "created_at": null,
+    "updated_at": null,
+    "deleted_at": null
+  }
 }
 ```
 
@@ -64,15 +64,15 @@ Collection's data
 
 ```json
 {
-    "name": "New college"
+  "name": "New college"
 }
 ```
 
 ### Validation Rules
 
-| Field | Required | Rules |
-|-------|:--------:|-----------------------------------------------------------------------------------------------------------------------------------------|
-| name  | ✔        | - String  <br> - Max length is 45  <br> - Only letters (from any language), combining marks and spaces.  <br> - Must be unique in the `colleges` table. |
+| Field | Required | Rules                                                                                                                                                |
+| ----- | :------: | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name  |    ✔    | - String <br> - Max length is 45 <br> - Only letters (from any language), combining marks and spaces. <br> - Must be unique in the `colleges` table. |
 
 ### Response
 
@@ -80,13 +80,13 @@ The created college
 
 ```json
 {
-    "data": {
-        "id": 6,
-        "name": "New college",
-        "created_at": "2025-03-06T19:13:47.000000Z",
-        "updated_at": "2025-03-06T19:13:47.000000Z",
-        "deleted_at": null  
-    }
+  "data": {
+    "id": 6,
+    "name": "New college",
+    "created_at": "2025-03-06T19:13:47.000000Z",
+    "updated_at": "2025-03-06T19:13:47.000000Z",
+    "deleted_at": null
+  }
 }
 ```
 
@@ -101,15 +101,15 @@ The created college
 
 ```json
 {
-    "name": "Updated college"
+  "name": "Updated college"
 }
 ```
 
 ### Validation Rules
 
-| Field | Required | Rules |
-|-------|:--------:|-----------------------------------------------------------------------------------------------------------------------------------------|
-| name  | ✔        | - String  <br> - Max length is 45  <br> - Only letters (from any language), combining marks and spaces.  <br> - Must be unique in the `colleges` table. |
+| Field | Required | Rules                                                                                                                                                |
+| ----- | :------: | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name  |    ✔    | - String <br> - Max length is 45 <br> - Only letters (from any language), combining marks and spaces. <br> - Must be unique in the `colleges` table. |
 
 ### Response
 
@@ -117,13 +117,13 @@ The updated college
 
 ```json
 {
-    "data": {
-        "id": 6,
-        "name": "Updated college",
-        "created_at": "2025-03-06T19:13:47.000000Z",
-        "updated_at": "2025-03-06T19:14:48.000000Z",
-        "deleted_at": null
-    }
+  "data": {
+    "id": 6,
+    "name": "Updated college",
+    "created_at": "2025-03-06T19:13:47.000000Z",
+    "updated_at": "2025-03-06T19:14:48.000000Z",
+    "deleted_at": null
+  }
 }
 ```
 
@@ -136,17 +136,16 @@ The updated college
 
 ### Response
 
-HTTP Status: `200 OK` 
+HTTP Status: `200 OK`
 
 ```json
 {
-    "data": {
-        "id": 6,
-        "name": "College name",
-        "created_at": "2025-03-06T19:13:47.000000Z",
-        "updated_at": "2025-03-06T19:15:34.000000Z",
-        "deleted_at": "2025-03-06T19:15:34.000000Z"
-    }
+  "data": {
+    "id": 6,
+    "name": "College name",
+    "created_at": "2025-03-06T19:13:47.000000Z",
+    "updated_at": "2025-03-06T19:15:34.000000Z",
+    "deleted_at": "2025-03-06T19:15:34.000000Z"
+  }
 }
 ```
-
