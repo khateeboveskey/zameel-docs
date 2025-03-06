@@ -48,6 +48,7 @@ export default defineConfig({
           items: [
             { text: "Users", link: "/backend/users" },
             { text: "Colleges", link: "/backend/colleges" },
+            { text: "Majors", link: "/backend/majors" },
           ],
         },
       ],
