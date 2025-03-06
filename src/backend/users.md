@@ -87,6 +87,6 @@
 
 ```json
 {
-  "message": "loged out"
+  "message": "logged out"
 }
 ```

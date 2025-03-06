@@ -51,7 +51,7 @@ Collection's data
 {
   "data": {
     "id": 1,
-    "name": "First major",
+    "name": "Major name",
     "college_id": 1,
     "degree_id": 2,
     "years": 4,
