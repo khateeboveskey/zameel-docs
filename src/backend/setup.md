@@ -1,36 +1,46 @@
-# Setup
+# Installation Steps
 
-## Prerequisites
+To set up the project locally, follow these steps:
 
-- Node.js 18.x or higher.
-- NPM 8.x or higher.
+1. **Clone the Repository**
 
-## 1. Fork the Repository
+   ```sh
+   git clone <repository_url>
+   cd <project_directory>
+   ```
 
-Fork the [repository on GitHub](https://github.com/khateeboveskey/zameel) to your own account.
+2. **Install Dependencies**
 
-## 2. Clone the Repository
+   ```sh
+   composer install
+   ```
 
-Clone the repository to your local machine:
+3. **Set Up Environment**
 
-```sh
-git clone https://github.com/<your-username>/zameel.git
-```
+   - Copy the `.env.example` file and rename it to `.env`:
 
-## 3. Install Dependencies
+   ```sh
+   cp .env.example .env
+   ```
 
-Install the dependencies:
+   - Update the `.env` file with your database credentials.
 
-```sh
-npm install
-```
+4. **Generate Application Key**
 
-## 4. Start the Development Server
+   ```sh
+   php artisan key:generate
+   ```
 
-Start the development server:
+5. **Run Migrations and Seed Database**
 
-```sh
-npm run start
-```
+   ```sh
+   php artisan migrate --seed
+   ```
 
-This will start the Vite development server and open the app in your default browser.
+6. **Run the Development Server**
+
+   ```sh
+   php artisan serve
+   ```
+
+   The application will be available at `http://127.0.0.1:8000`.
