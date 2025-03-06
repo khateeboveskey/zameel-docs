@@ -16,14 +16,14 @@ Collection's data
   "data": [
     {
       "id": 1,
-      "name": "College 1",
+      "name": "First college",
       "created_at": null,
       "updated_at": null,
       "deleted_at": null
     },
     {
       "id": 2,
-      "name": "College 2",
+      "name": "Second college",
       "created_at": null,
       "updated_at": null,
       "deleted_at": null
@@ -45,7 +45,7 @@ Collection's data
 {
   "data": {
     "id": 1,
-    "name": "College 1",
+    "name": "College name",
     "created_at": null,
     "updated_at": null,
     "deleted_at": null
@@ -75,6 +75,8 @@ Collection's data
 | name  |    ✔    | - String <br> - Max length is 45 <br> - Only letters (from any language), combining marks and spaces. <br> - Must be unique in the `colleges` table. |
 
 ### Response
+
+HTTP Status: `201 Created`
 
 The created college
 
@@ -137,6 +139,8 @@ The updated college
 ### Response
 
 HTTP Status: `200 OK`
+
+The deleted college
 
 ```json
 {
